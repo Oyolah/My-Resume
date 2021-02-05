@@ -8,11 +8,9 @@ const About = () => {
       <div class="about-text">
         <h1>About Me</h1>
         <p>
-          Hello,My name is Oyolah Mustapha. I am a Devolper.If you have asany
-          Project or if you want make a software for your bisnes conatact me.I
-          make as soon as possibale.You really like my work,if you don't i
-          change this until you like I give you seticfaction result. I am a
-          Devolper.
+          I am extremely motivated to constantly develop my skills and grow
+          professionally. I am confident in my ability to come up with
+          interesting ideas for unforgettable marketing campaigns.
         </p>
         <div className="social-links">
           <a href="http://">Let's Talk</a>
