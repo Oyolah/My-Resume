@@ -32,7 +32,7 @@ const NavBar = () => {
       <div className="nav-wrapper">
         <div className="logo">
           <Link to="/">
-            <img src="logo.png" alt="brand" />
+            <img className="brand" src="logo.png" alt="brand" />
           </Link>
         </div>
         <div className="list-wrapper">

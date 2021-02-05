@@ -1,37 +1,60 @@
 import './style.css';
+import HTML from './Skills/html-5.svg';
+import CSS from './Skills/css3.svg';
+import BOOTSTRAP from './Skills/bootstrap-4.svg';
+import JAVASCRIPT from './Skills/javascript.svg';
+import REACTJS from './Skills/react.svg';
+import NODEJS from './Skills/nodejs.svg';
 
 const Skills = () => {
   return (
-    <div className="skills">
-      <h1>Skills</h1>
-      <div className="content">
-        <div>
-          <strong>Languages:</strong>
-          <li>CSS3</li>
-          <li>HTML5</li>
-          <li>Node.js</li>
-          <li>JavaScript</li>
+    <div className="container bd-grid">
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={HTML} alt="" className="skill-icon" />
+          </div>
+          <h3>HTML5</h3>
         </div>
-        <div>
-          <strong>Libraries:</strong>
-          <li>Bootstrap</li>
-          <li>Express.js</li>
-          <li>Tailwinds</li>
-          <li>React.js</li>
+      </div>
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={CSS} alt="" className="skill-icon" />
+          </div>
+          <h3>CSS3</h3>
         </div>
-        <div>
-          <strong>Tools:</strong>
-          <li>VSCode</li>
-          <li>Github</li>
-          <li>Chrome Dev</li>
-          <li>Git </li>
+      </div>
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={BOOTSTRAP} alt="BOOTSTRAP" className="skill-icon" />
+          </div>
+          <h3>BOOTSTRAP-5</h3>
         </div>
-        <div>
-          <strong>Uint Test:</strong>
-          <li>Jest</li>
-          <li>Enzyme</li>
-          <li>React-test</li>
-          <li>SupperTest</li>
+      </div>
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={JAVASCRIPT} alt="" className="skill-icon" />
+          </div>
+          <h3>JAVASCRIPT</h3>
+        </div>
+      </div>
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={REACTJS} alt="" className="skill-icon" />
+          </div>
+          <h3>REACT JS</h3>
+        </div>
+      </div>
+      <div className="skill-box">
+        <div className="skill-title">
+          <div>
+            <img src={NODEJS} alt="" className="skill-icon" />
+          </div>
+          <h3>NODE JS</h3>
         </div>
       </div>
     </div>

@@ -1,68 +1,96 @@
-.skills {
-  flex-grow: 1;
+:root {
+  --first-color: #4070f4;
+  --second-color: #0e2431;
 }
 
-.skills h1 {
-  margin-bottom: 20px;
+.section {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
-.content {
+.bd-grid {
+  max-width: 1024px;
   display: grid;
-  font-size: 24px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.content div {
-  margin-bottom: 25px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
+}
+.skill-box {
+  padding: 1rem;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px 0px rgba(235, 232, 235, 1);
+}
+.skill-box:hover > .skill-title:after,
+.skill-box:hover > .skill-title:before {
+  width: 35px;
+}
+.skill-box:hover .skill-icon {
+  transform: translateY(-10px);
+}
+.skill-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.skill-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 0px;
+  height: 4px;
+  border-radius: 2px 0 0 2px;
+  background-color: var(--first-color);
+  transition: 0.5s;
+}
+.skill-title:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 4px;
+  width: 0px;
+  border-radius: 0 2px 2px 0;
+  background-color: var(--first-color);
+  transition: 0.5s;
 }
 
-.content strong {
-  line-height: 25px;
-  padding-bottom: 15px;
-  display: block;
+.skill-icon {
+  width: 50px;
+  transition: 0.5s;
 }
-
-.content li {
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-@media (min-width: 800px) {
-  .content {
-    grid-template-columns: 1fr 1fr 1fr;
+@media screen and (min-width: 1024px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 50px;
   }
 }
-.skills {
-  flex-grow: 1;
+@media screen and (max-width: 990px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 50px;
+  }
 }
-
-.skills h1 {
-  margin-bottom: 20px;
-}
-
-.content {
-  display: grid;
-  font-size: 24px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.content div {
-  margin-bottom: 25px;
-}
-
-.content strong {
-  line-height: 25px;
-  padding-bottom: 15px;
-  display: block;
-}
-
-.content li {
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-@media (min-width: 800px) {
-  .content {
-    grid-template-columns: 1fr 1fr 1fr;
+/* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 50px;
   }
 }
