@@ -12,15 +12,6 @@ const About = () => {
           professionally. I am confident in my ability to come up with
           interesting ideas for unforgettable marketing campaigns.
         </p>
-        <div className="social-links">
-          <a to="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/">
-            Let's Talk
-          </a>
-          <a to="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/">
-            LinkedIn
-          </a>
-          <a to="https://github.com/Oyolah">Github</a>
-        </div>
       </div>
     </div>
   );
