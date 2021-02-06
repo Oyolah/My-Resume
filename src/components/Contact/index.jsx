@@ -3,8 +3,7 @@ import './style.css';
 const Contact = () => {
   return (
     <div className="contact">
-      <h1>Contact me!</h1>
-
+      <h1>Contact Me</h1>
       <h4>Phone</h4>
       <p>+30 690 6688 440</p>
 

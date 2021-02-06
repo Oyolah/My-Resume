@@ -14,12 +14,7 @@
   justify-content: center;
   margin-left: 20px;
 }
-h1 {
-  padding: 10px;
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-}
+
 .contact-social-links a {
   text-decoration: none;
   padding: 10px 20px;

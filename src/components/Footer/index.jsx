@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div className="contact">
       <div className="contact-page">
-        <h1>Contact Me</h1>
         <div className="contact-social-links">
           <a href="http://">Gmail</a>
           <a href="http://">LinkedIn</a>
