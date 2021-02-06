@@ -13,9 +13,13 @@ const About = () => {
           interesting ideas for unforgettable marketing campaigns.
         </p>
         <div className="social-links">
-          <a href="http://">Let's Talk</a>
-          <a href="http://">LinkedIn</a>
-          <a href="http://">Github</a>
+          <a to="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/">
+            Let's Talk
+          </a>
+          <a to="https://www.linkedin.com/in/oyolah-mustapha-kamara-898252140/">
+            LinkedIn
+          </a>
+          <a to="https://github.com/Oyolah">Github</a>
         </div>
       </div>
     </div>
